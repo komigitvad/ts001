@@ -1,4 +1,5 @@
- @ECHO OFF
+ @ECHO OFF    
+
 cls
 SET comment=Saved on %date%-%time%
 IF "%~1"=="" GOTO COMMIT
@@ -9,7 +10,7 @@ SET comment=%comment% by %username%
 ECHO %comment%
  
 cd C:\_vad\ts1
-git checkout dev
+git checkout main
 git add .
  
 git commit -m "%comment%"
