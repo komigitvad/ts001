@@ -8,7 +8,7 @@ SET comment=%comment% by %username%
 :COMMIT
 ECHO %comment%
  
-cd C:\_vad\ts4
+cd C:\_vad\ts1
 git checkout dev
 git add .
  
