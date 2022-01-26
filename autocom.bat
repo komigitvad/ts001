@@ -1,4 +1,4 @@
- @ECHO OFF    
+rem  @ECHO OFF    
 
 cls
 SET comment=Saved on %date%-%time%
