@@ -12,6 +12,6 @@ ECHO %comment%
 cd C:\_vad\ts1
 git checkout main
 git add .
- 
+                  
 git commit -m "%comment%"
 git push
